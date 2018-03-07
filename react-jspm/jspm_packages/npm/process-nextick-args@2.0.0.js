@@ -1,1 +1,0 @@
-module.exports = require("npm:process-nextick-args@2.0.0/index.js");
