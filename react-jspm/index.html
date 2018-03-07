@@ -1,10 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-hans">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>React example</title>
 </head>
 <body>
+	<div class="ui container" style="padding: 30px">
+		<div id="app"></div>
+	</div>
+	<div></div>
 
+	<script src="jspm_packages/system.js"></script>
+	<script src="config.js"></script>
+	<script>
+		System.import('app/main')
+	</script>
 </body>
 </html>
